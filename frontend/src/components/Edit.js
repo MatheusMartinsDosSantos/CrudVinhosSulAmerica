@@ -62,7 +62,7 @@ const Edit = ({ getUsers, onEdit, setOnEdit }) => {
 
     if (onEdit) {
       await axios
-        .put("http://20.195.166.255:5000/" + onEdit.id, {
+        .put("http://localhost:8800/" + onEdit.id, {
           nm_vinho: user.nm_vinho.value,
           ps_vinho: user.ps_vinho.value,
           pr_vinho: user.pr_vinho.value,

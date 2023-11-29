@@ -23,7 +23,7 @@ export default function Cadastro() {
 
   const getUsers = async () => {
     try {
-      const res = await axios.get("http://20.195.166.255:5000");
+      const res = await axios.get("http://localhost:8800");
       setUsers(res.data.sort((a, b) => (a.nm_vinho > b.nm_vinho ? 1 : -1)));
     } catch (error) {
       toast.error(error);
