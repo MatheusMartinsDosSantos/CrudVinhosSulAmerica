@@ -49,7 +49,7 @@ const Grid = ({ users, setUsers, setOnEdit }) => {
 
   const handleDelete = async (id) => {
     await axios
-      .delete("http://localhost:8800/" + id)
+      .delete("http://20.195.166.255:5000" + id)
       .then(({ data }) => {
         const newArray = users.filter((user) => user.id !== id);
 
