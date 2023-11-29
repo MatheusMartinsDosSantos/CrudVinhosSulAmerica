@@ -23,7 +23,7 @@ export const addUser = (req, res) => {
     db.query(q, [values], (err) => {
       if (err) return res.json(err);
   
-      return res.status(200).json("Usuário criado com sucesso.");
+      return res.status(200).json("Vinho criado com sucesso.");
     });
   };
   
@@ -40,7 +40,7 @@ export const addUser = (req, res) => {
     db.query(q, [...values, req.params.id], (err) => {
       if (err) return res.json(err);
   
-      return res.status(200).json("Usuário atualizado com sucesso.");
+      return res.status(200).json("Vinho atualizado com sucesso.");
     });
   };
   
@@ -50,6 +50,6 @@ export const addUser = (req, res) => {
     db.query(q, [req.params.id], (err) => {
       if (err) return res.json(err);
   
-      return res.status(200).json("Usuário deletado com sucesso.");
+      return res.status(200).json("Vinho deletado com sucesso.");
     });
   };
