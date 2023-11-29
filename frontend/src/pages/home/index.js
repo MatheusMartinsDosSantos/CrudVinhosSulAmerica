@@ -7,12 +7,11 @@ export default function Home() {
 <div className="TV">
           <div className="overlap-wrapper">
           <div className="group-2">
-                <img className="group-3" src="img/group-7.png" />
                 <div className="div-wrapper">
                   <div className="overlap-group-2">
                     <div style={{width: '135px', height: '210.77px', position: 'relative'}}>
                       <div style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute'}}>
-                        <div style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute', background: '#D9D9D9'}} />
+                        <div className="shadow1" style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute', background: '#D9D9D9'}} />
                         <img style={{width: '135px', height: '135px', left: '0px', top: '0px', position: 'absolute'}} src="img/image1.png" />
                       </div>
                       <div style={{left: '5px', top: '147px', position: 'absolute', color: '#140709', fontSize: '10px', fontFamily: 'Kadwa', fontWeight: 400, wordWrap: 'break-word'}}>Vinho Cabernet Sauvignon<br />Trapiche</div>
@@ -20,10 +19,29 @@ export default function Home() {
                       <img style={{width: '32px', height: '17px', left: '99px', top: '188px', position: 'absolute'}} src="img/arg.png" />
                     </div>
                   </div>
+                  <div className="overlap-group1-2">
+                    <div style={{width: '135px', height: '210.77px', position: 'relative'}}>
+                      <div style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute'}}>
+                        <div className="shadow1" style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute', background: '#D9D9D9'}} />
+                        <img style={{width: '135px', height: '135px', left: '0px', top: '0px', position: 'absolute'}} src="img/2.png" />
+                      </div>
+                      <div style={{left: '5px', top: '147px', position: 'absolute', color: '#140709', fontSize: '10px', fontFamily: 'Kadwa', fontWeight: 400, wordWrap: 'break-word'}}>Kit 3 Vinhos Trivento<br />Reserve White Malbec</div>
+                      <div style={{left: '7px', top: '185px', position: 'absolute', color: '#722735', fontSize: '10px', fontFamily: 'Kadwa', fontWeight: 600, wordWrap: 'break-word'}}>R$227,90</div>
+                      <img style={{width: '32px', height: '17px', left: '99px', top: '188px', position: 'absolute'}} src="img/arg.png" />
+                    </div>
+                  </div>
+                  <div className="overlap-group2-2">
+                    <div style={{width: '135px', height: '210.77px', position: 'relative'}}>
+                      <div style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute'}}>
+                        <div className="shadow1" style={{width: '135px', height: '210.77px', left: '0px', top: '0px', position: 'absolute', background: '#D9D9D9', }} />
+                        <img style={{width: '135px', height: '135px', left: '0px', top: '0px', position: 'absolute'}} src="img/3.png" />
+                      </div>
+                      <div style={{left: '5px', top: '147px', position: 'absolute', color: '#140709', fontSize: '10px', fontFamily: 'Kadwa', fontWeight: 400, wordWrap: 'break-word'}}>Vinho Argentino Tierra Mágica<br />Tinto Suave</div>
+                      <div style={{left: '7px', top: '185px', position: 'absolute', color: '#722735', fontSize: '10px', fontFamily: 'Kadwa', fontWeight: 600, wordWrap: 'break-word'}}>R$34,99</div>
+                      <img style={{width: '32px', height: '17px', left: '99px', top: '188px', position: 'absolute'}} src="img/arg.png" />
+                    </div>
+                  </div>
                 </div>
-                <div className="group-6" />
-                <div className="group-7" />
-                <div className="group-8" />
               </div>
             <div className="overlap">
               <img className="image" src="img/image-25.png" />
