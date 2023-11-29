@@ -74,7 +74,7 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
 
     if (onEdit) {
       await axios
-        .put("http://20.195.166.255:5000" + onEdit.id, {
+        .put("http://20.195.166.255:5000/" + onEdit.id, {
           nm_vinho: user.nm_vinho.value,
           ps_vinho: user.ps_vinho.value,
           pr_vinho: user.pr_vinho.value,
@@ -83,7 +83,7 @@ const Form = ({ getUsers, onEdit, setOnEdit }) => {
         .catch(({ data }) => toast.error(data));
     } else {
       await axios
-        .post("http://20.195.166.255:5000", {
+        .post("http://20.195.166.255:5000/", {
           nm_vinho: user.nm_vinho.value,
           ps_vinho: user.ps_vinho.value,
           pr_vinho: user.pr_vinho.value,
